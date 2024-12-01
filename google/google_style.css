@@ -1,0 +1,88 @@
+.main {
+    display: block;
+    width: 500px;
+    margin-top: 250px;
+    margin-left: 700px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.logo {
+    width: 350px;
+    height: 100px;
+    display: block;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: 50px;
+    padding-left: 30px;
+}
+
+.search-bar {
+    width: 500px;
+    /* this is the recommended way to set the height of the search bar */
+    line-height: 24px;
+    /*height: 24px;*/
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.search-button {
+    display: inline;
+    margin-top: 35px;
+    margin-right: 6px;
+    margin-left: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #dfe1e5;
+    font-size: 14px;
+    color: #5f6368;
+}
+
+.lucky-button {
+    display: inline;
+    margin-left: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #dfe1e5;
+    font-size: 14px;
+    color: #5f6368;
+}
+
+.lucky-button {
+    margin-left: 3px;
+}
+
+
+
+.home-link {
+    display: block;
+    width: 150px;
+    margin-top: 220px;
+    margin-left: 200px;
+    margin-right: auto;
+    padding-left: 1px;
+    /*border: 1px dotted lightgray;*/
+    border-radius: 5px;
+
+}
