@@ -1,0 +1,67 @@
+#hero {
+    height: 1000px;
+    width: 100%;
+    background-image: url(faded_office.png);
+    background-size: cover;
+    border: 2px solid black
+}
+
+#main-title {
+    width: 500px;
+    margin: 150px 0px 0px 100px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    /* weight is from 300 to 800 */
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 80px;
+    color: #020202;
+}
+
+#sub-title {
+    width: 500px;
+    margin: 50px 0px 0px 100px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 35px;
+    color: #020202;
+}
+
+.underline {
+    /* text-decoration: underline;
+    color: blue; */
+    border-bottom: 7px solid #0ea5e9;
+}
+
+#hero-button {
+    margin: 50px 0px 0px 100px;
+    width: 250px;
+    height: 80px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 30px;
+    color: white;
+    background-color: #0ea5e9;
+    border: none;
+}
+
+#back-to-home {
+    margin: 150px 0px 0px 100px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 20px;
+}
