@@ -37,7 +37,10 @@ body {
 }
 
 .project-item {
-    display: flex;
+    /* display: flex; */
+    flex: 1;
+    width: calc(33.333% - 14px);
+
 }
 
 .project-logo {
