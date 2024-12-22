@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.border {
+    border: 0px solid black;
+}
+
+.container {
+    margin-top: 100px;
+    width: 575px;
+    height: 385px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #1B244A;
+}
+
+.main-box {
+    width: 155px;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+#home {
+    margin-top: 68px;
+    margin-left: 85px;
+}
+
+#guest {
+    margin-top: 68px;
+    margin-right: 85px;
+}
+
+.score-title {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.score-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    margin-top: 21px;
+    height: 120px;
+    width: 155px;
+    background-color: #111827;
+
+}
+
+.score {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    color: #F94F6D;
+}
+
+.button-box {
+    margin-top: 26px;
+    margin-bottom: 0px;
+    height: 45px;
+    width: 155px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button {
+    margin: 0 4px;
+    height: 45px;
+    width: 45px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#backhome {
+    position: fixed;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
