@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Password Generator</title> -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 id="header">Generate a </h1>
+    <h1 class="highlight" id="header">random password</h1>
+    <p class="subtitle">Never use an insecure password again.</p>
+    <button class="generate-btn" onclick="generatePasswords()">Generate passwords</button>
+
+    <div class="options">
+    <input type="text" placeholder="Length" id="length" />
+    <div>
+      <input type="text" id="length" value="Numbers" readonly/>
+      <button class="toggle" id="num_on" ="ON" onclick="num_turn_on(this)"> ON </button> 
+      <button class="toggle" id="num_off" onclick="num_turn_off(this)"> OFF </button> 
+    </div>
+    
+    <div>
+      <input type="text" id="length" value="Symbols" readonly/>
+      <button class="toggle" id="sym_on" onclick="sym_turn_on(this)"> ON </button>
+      <button class="toggle" id="sym_off" onclick="sym_turn_off(this)" readonly> OFF </button>
+    </div>
+
+
+    <div class="divider"></div>
+    <div class="passwords">
+      <input type="text" id="password1" readonly onclick="copy(this)"/>
+      <input type="text" id="password2" readonly onclick="copy(this)"/>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
